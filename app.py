@@ -318,9 +318,9 @@ def ValuePredictor(to_predict_list, size):
         result =loaded_model.predict(to_predict)
     return result[0]
 
-@app.route('/result',methods = ["GET", "POST"])
+@app.route('/result',methods = ["POST"])
 def result():
-    if request.method == 'POST' or request.method == 'GET':
+    if request.method == 'POST':
         to_predict_list = request.form.to_dict()
         to_predict_list=list(to_predict_list.values())
         to_predict_list = list(map(float, to_predict_list))
@@ -359,7 +359,7 @@ def result():
 def generalPredictPage():
     try:
               
-        if request.method == 'POST' or request.method == 'GET':
+        if request.method == 'POST':
             model = joblib.load('models/trained_model')
             """input_no=request.get_json()
             print(input_no)
@@ -417,7 +417,7 @@ def generalPredictPage():
 def resultlinkpage():
     try:
         print("this is result link func")      
-        if request.method == 'POST' or request.method == 'GET':
+        if request.method == 'POST':
             disease=dis
             input_sym=request.get_json()
             print(input_sym)
