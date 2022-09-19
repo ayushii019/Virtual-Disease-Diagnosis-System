@@ -2,7 +2,7 @@
 
 ## ABOUT
 
-<p> Virtual Disease Diagnosis System is a web application that enables the user to do multiple disease prediction in a single app. The existing frameworks were studied and improvements were done in terms of exactness, dependability and productivity.Once the user inputs his symptoms, the system predicts the disease after which it also analyses the same inputs and gives suggestions to prevent the risk of future complications.</p>
+<p> Virtual Disease Diagnosis System is a web application that enables the user to do multiple disease prediction in a single app. The existing frameworks were studied and improvements were done in terms of exactness, dependability and productivity. Once the user inputs his symptoms, the system predicts the disease after which it also analyses the same inputs and gives suggestions to prevent the risk of future complications.</p>
 
 This webapp was developed using Flask Web Framework and was deployed on Heroku server. The webapp can predict following Diseases:
 
