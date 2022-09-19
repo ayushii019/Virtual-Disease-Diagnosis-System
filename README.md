@@ -46,7 +46,7 @@ You can find all the models in the models folder.
 
 </ul>
 
-## Install
+## Installation
 
 This project requires **Python 3.6**  and the libraries used are included in [Requirements](https://github.com/ayushii019/Virtual-Disease-Diagnosis-System/blob/main/requirements.txt)
 
