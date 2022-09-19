@@ -1,6 +1,6 @@
 # VDDS
 
-##ABOUT
+## ABOUT
 
 <p> Virtual Disease Diagnosis System is a web application that enables the user to do multiple disease prediction in a single app. The existing frameworks were studied and improvements were done in terms of exactness, dependability and productivity.Once the user inputs his symptoms, the system predicts the disease after which it also analyses the same inputs and gives suggestions to prevent the risk of future complications.</p>
 
@@ -32,7 +32,7 @@ This webapp was developed using Flask Web Framework and was deployed on Heroku s
 - [Liver Disease Dataset](https://www.kaggle.com/uciml/indian-liver-patient-records)
 - [General Disease Dataset](https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning)
 
-##The models used for the disease prediction are listed below:
+## The models used for the disease prediction are listed below:
 
 <ul>
 <li><p><b>Cancer model = model</b></p></li>
