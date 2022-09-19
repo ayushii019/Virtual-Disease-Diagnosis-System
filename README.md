@@ -41,7 +41,7 @@ This webapp was developed using Flask Web Framework and was deployed on Heroku s
 <li><p><b>Liver model = model4</b></p></li>
 <li><p><b>Kidney model = model3</b></p></li>
 <li><p><b>General Disease model = trained_model</b></p></li>
-You can find all the models in [models] (https://github.com/ayushii019/Virtual-Disease-Diagnosis-System/tree/main/models) folder.
+You can find all the models in the models folder.
 
 
 </ul>
